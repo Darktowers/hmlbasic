@@ -1,59 +1,6 @@
 body {
     background: black;
 }
-
-.section {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.section-article {
-    background: white;
-    width: 350px;
-    border-radius: .5em;
-    overflow: hidden;
-    margin: .5em;
-    cursor: pointer;
-    transition: all .3s ease-in-out;
-}
-.section-article:hover {
-    box-shadow: 0px 0px 15px 0px cyan;
-}
-.section-article:hover .section-figure-img {
-    transform: scale(1.3);
-}
-.section-figure {
-    margin: 0;
-    height: 200px;
-    overflow: hidden;
-}
-
-.section-figure-img {
-    height: 100%;
-    transition: all .3s ease-in-out;
-}
-
-.section-article-header-title {
-    padding: 1em 1em 0;
-    text-transform: capitalize;
-    margin: 0;
-    padding-bottom: .5em;
-    border-bottom: 1px solid cyan;
-}
-
-.section-article-section {
-    padding: 0 1em 1em;
-}
-
-.section-footer {
-    padding: 0 1em 1em;
-}
-
-.section-footer p {
-    margin: 0;
-    text-align: right;
+.calculadora {
+    color: white;
 }
